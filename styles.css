@@ -1,19 +1,25 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
 
-html {
-    background-color: black;
+body {
+    background-color: #0C0C0C;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.navbar {
+    text-align: center;
+    color: white;
 }
 
 h1 {
-    text-align: center;
-    color: white;
     font-size: 4em;
-    margin: 0;
 }
 
-p {
-    text-align: center;
-    color: white;
+abbr {
+    text-underline-position: 1rem;
 }
